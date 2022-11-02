@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.PDF {
+  /* text-align: center; */
+  /* background-color: rgba(100, 0, 0, 0.5); */
+  width: 580px;
+  /* margin: 50; */
+}
+
+#img-header {
+  padding-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  /* padding: 10; */
+  width: 90%;
+}
+
+.pdf-body {
+  margin-left: 10%;
+  font-size: 12px;
+  line-height: 10px;
+  /* background-color: rgba(50, 100, 0, 0.6); */
+  /* padding-left: 10%; */
+  /* width: 90%; */
+}
