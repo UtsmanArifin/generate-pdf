@@ -40,7 +40,7 @@
 .PDF {
   /* text-align: center; */
   /* background-color: rgba(100, 0, 0, 0.5); */
-  width: 580px;
+  /* width: 17cm; */
   /* margin: 50; */
 }
 
@@ -54,9 +54,11 @@
 }
 
 .pdf-body {
-  margin-left: 10%;
-  font-size: 12px;
-  line-height: 10px;
+  margin-left: 1.5cm;
+  margin-right: 1.5cm;
+  margin-top: 0%;
+  font-size: 16px;
+  line-height: normal;
   /* background-color: rgba(50, 100, 0, 0.6); */
   /* padding-left: 10%; */
   /* width: 90%; */
