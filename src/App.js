@@ -26,8 +26,8 @@ const App = () => {
           {/* <div> */}
             <img id="img-header" src={Header} width="20cm"></img>
             <div className="pdf-body">
-                <a>INTERNAL MEMO</a>
-                <table style={{borderCollapse: "collapse"}}>
+                <a style={{fontSize: 14}}>INTERNAL MEMO</a>
+                <table style={{borderCollapse: "collapse", lineHeight: '18px', fontSize:14}}>
                     <tr>
                         <td>Nomor</td>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </td>
@@ -60,18 +60,18 @@ const App = () => {
                         <td>Perihal</td>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </td>
                     </tr>
-                    <tr style={{borderBottom: "1pt solid black", borderColor: "black"}}>
-                        <td></td>
+                    <tr style={{borderBottom: "2pt solid black", borderColor: "black", lineHeight: 1}}>
+                        <td>&nbsp;</td>
                         <td style={{width: "100%"}}>
                         </td>
                     </tr>
-                    <tr>
+                    <tr style={{lineHeight: 2}}>
                         <td><b>TUJUAN</b></td>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Mendapatkan Persetujuan
                             Sewa</td>
                     </tr>
                 </table>
-                    <p style={{marginTop: "0.5%"}}><b>LATAR BELAKANG:</b><br/>
+                    <p style={{marginTop: "0.5%", fontSize:14}}><b>LATAR BELAKANG:</b><br/>
                     Pengajuan ini disampaikan dengan pertimbangan sebagai berikut :
                     <ol type="1" style={{lineHeight: "16px", textAlign: "justify", marginTop: "1%"}}>
                         <li>Akan berakhirnya kontrak kerjasama sewa antara PT. Narindo Solusi Telekomunikasi dengan Bpk Syahrir
@@ -80,59 +80,81 @@ const App = () => {
                             Pengajuan Sewa Baru Gedung TAP Sekayu</li>
                     </ol>
                     </p>
-                    <p style={{lineHeight: "16px", textAlign: "justify", marginTop: "0%"}}>
+                    <p style={{lineHeight: "16px", textAlign: "justify", marginTop: "0%", fontSize:14}}>
                         <b>USULAN PERSETUJUAN</b><br/>
                         Berdasarkan latar belakang di atas, dengan ini kami mengajukan permohonan persetujuan management untuk
                         pengajuan Sewa Baru Gedung TAP Sekayu selama <b>1 Tahun</b> dengan rincian sebagai berikut :
-                        <table style={{marginLeft: "4%", borderCollapse: "collapse", marginBottom: "1%", textAlign: 'left', fontSize: 14, marginTop: "1%"}}>
+                        <table style={{marginLeft: "4%", borderCollapse: "collapse", marginBottom: "1%", textAlign: 'left', marginTop: "1%"}}>
                             <tr>
-                                <td><b>1.&nbsp;&nbsp;&nbsp;&nbsp;Lokasi Gedung</b></td>
-                                <td>: Jl. Kol. Wahid Udin No 559 F Sekayu Kab. Musi Banyuasin</td>
+                                <td><b>1.</b></td>
+                                <td><b>Lokasi Gedung</b></td>
+                                <td>: </td>
+                                <td>&nbsp;Jl. Kol. Wahid Udin No 559 F Sekayu Kab. Musi Banyuasin</td>
                             </tr>
                             <tr>
-                                <td><b>2.&nbsp;&nbsp;&nbsp;&nbsp;Jumlah Lantai</b></td>
-                                <td>: 1 Ruko 2 Lantai</td>
+                                <td><b>2.</b></td>
+                                <td><b>Jumlah Lantai</b></td>
+                                <td>: </td>
+                                <td>&nbsp;1 Ruko 2 Lantai</td>
                             </tr>
                             <tr>
-                                <td><b>3.&nbsp;&nbsp;&nbsp;&nbsp;Daya Listrik</b></td>
-                                <td>: 5.500 Watt</td>
+                                <td><b>3.</b></td>
+                                <td><b>Daya Listrik</b></td>
+                                <td>: </td>
+                                <td>&nbsp;5.500 Watt</td>
                             </tr>
                             <tr>
-                                <td><b>4.&nbsp;&nbsp;&nbsp;&nbsp;Periode Sewa</b></td>
-                                <td>: 01 November 2022 s.d 30 Oktober 2023</td>
+                                <td><b>4.</b></td>
+                                <td><b>Periode Sewa</b></td>
+                                <td>: </td>
+                                <td>&nbsp;01 November 2022 s.d 30 Oktober 2023</td>
                             </tr>
                             <tr>
-                                <td><b>5.&nbsp;&nbsp;&nbsp;&nbsp;Biaya Sewa</b></td>
-                                <td>: Rp 42.500.000,- / 1 Tahun (Nominal yang ditransfer ke pemilik)</td>
+                                <td><b>5.</b></td>
+                                <td><b>Biaya Sewa</b></td>
+                                <td>: </td>
+                                <td>&nbsp;Rp 42.500.000,- / 1 Tahun (Nominal yang ditransfer ke pemilik)</td>
+                            </tr>
+                            <tr style={{verticalAlign: 'top'}}>
+                                <td><b>6.</b></td>
+                                <td><b>Pajak 4 Ayat 2</b></td>
+                                <td>: </td>
+                                <td>&nbsp;Rp 4.250.000,- (Pajak ditanggung PT. Narindo Solusi Telekomunikasi)</td>
                             </tr>
                             <tr>
-                                <td><b>6.&nbsp;&nbsp;&nbsp;&nbsp;Pajak 4 Ayat 2</b></td>
-                                <td>: Rp 4.250.000,- (Pajak ditanggung PT. Narindo Solusi Telekomunikasi)</td>
+                                <td><b>7.</b></td>
+                                <td style={{width: '150px'}}><b>Besar Beban Sewa</b></td>
+                                <td>: </td>
+                                <td>&nbsp;Rp 46.750.000,- / 1 Tahun </td>
                             </tr>
                             <tr>
-                                <td><b>7.&nbsp;&nbsp;&nbsp;&nbsp;Besar Beban Sewa</b></td>
-                                <td>: Rp 46.750.000,- / 1 Tahun </td>
-                            </tr>
-                            <tr>
-                                <td><b>8.&nbsp;&nbsp;&nbsp;&nbsp;Pembayaran</b></td>
-                                <td>: Transfer ke rek SUMSEL BABEL dengan</td>
+                                <td><b>8.</b></td>
+                                <td><b>Pembayaran</b></td>
+                                <td>: </td>
+                                <td>&nbsp;Transfer ke rek SUMSEL BABEL dengan</td>
                             </tr>
                             <tr>
                                 <td></td>
-                                <td>&nbsp;&nbsp;No. Rek 1400.123.867 a.n SYAHRIR TAUHID IR.H.MM </td>
+                                <td></td>
+                                <td></td>
+                                <td>&nbsp;No. Rek 1400.123.867 a.n SYAHRIR TAUHID IR.H.MM</td>
                             </tr>
                             <tr>
-                                <td><b>9.&nbsp;&nbsp;&nbsp;&nbsp;Batas Waktu</b></td>
-                                <td>: 31 Oktober 2022</td>
+                                <td><b>9.</b></td>
+                                <td><b>Batas Waktu</b></td>
+                                <td>: </td>
+                                <td>&nbsp;31 Oktober 2022</td>
                             </tr>
                             <tr>
-                                <td><b>10.&nbsp;&nbsp;Alasan</b></td>
-                                <td>: 31 Oktober 2022</td>
+                                <td><b>10.</b></td>
+                                <td><b>Alasan</b></td>
+                                <td>: </td>
+                                <td>&nbsp;31 Oktober 2022</td>
                             </tr>
                         </table>
                         Demikian permohonan ini kami sampaikan, dan atas persetujuan yang diberikan kami ucapkan terima kasih.
                     </p>
-                    <table style={{width: "100%", borderCollapse: "collapse"}}>
+                    <table style={{width: "100%", borderCollapse: "collapse", fontSize:14, marginBottom: 120}}>
                         <tr>
                             <th style={{fontWeight: "normal", textAlign: "left", width: "5cm"}}>Sekayu, 24 Oktober 2022</th>
                             <th></th>
@@ -145,7 +167,7 @@ const App = () => {
                             <td style={{textAlign: "left"}}>Disetujui oleh,</td>
                         </tr>
                         <tr>
-                            <td style={{lineHeight: "3cm", color: "white"}}> z</td>
+                            <td style={{lineHeight: "2cm", color: "white"}}> z</td>
                             <td style={{color: "white"}}>z</td>
                             <td style={{color: "white"}}>z</td>
                             <td style={{color: "white"}}>z</td>
@@ -163,6 +185,9 @@ const App = () => {
                             <td><b>Chief Of Executive</b></td>
                         </tr>
                     </table>
+            </div>
+            <div>
+
             </div>
             <img id="img-footer" src={Footer} width="20cm"></img>
           {/* </div> */}

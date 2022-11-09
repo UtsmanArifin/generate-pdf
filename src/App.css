@@ -48,14 +48,13 @@
   display: block;
   /* padding: 10; */
   width: 90%;
-  background-color: rgba(255, 0, 0, 0.5);
+  /* background-color: rgba(255, 0, 0, 0.5); */
 }
 
 .pdf-body {
   margin-left: 1.5cm;
   margin-right: 1.5cm;
   margin-top: 0%;
-  font-size: 16;
   line-height: normal;
   /* background-color: rgba(50, 100, 0, 0.6); */
   /* padding-left: 10%; */
@@ -69,4 +68,8 @@
   display: block;
   /* padding: 10; */
   width: 100%;
+}
+
+table {
+  font-size: 200;
 }
