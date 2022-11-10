@@ -167,10 +167,10 @@ const App = () => {
                             <td style={{textAlign: "left"}}>Disetujui oleh,</td>
                         </tr>
                         <tr>
-                            <td style={{lineHeight: "2cm", color: "white"}}> z</td>
-                            <td style={{color: "white"}}>z</td>
-                            <td style={{color: "white"}}>z</td>
-                            <td style={{color: "white"}}>z</td>
+                            <td style={{lineHeight: "2cm", }}>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
                         </tr>
                         <tr>
                             <td><b><u>Arief Budiman</u></b></td>
